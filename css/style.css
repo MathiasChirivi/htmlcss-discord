@@ -48,11 +48,23 @@ header{
     color:white;
     text-decoration: none;
 }
+
+a.link:hover, a.link:active {text-decoration: underline;}
+
 /*CSS Vari Bottoni*/
 .w3-button{
+    cursor: pointer;
     border-radius: 40px;
     font-size: 15px;
     padding: 7px 16px;
+}
+
+button.w3-button:hover, button.w3-button:active {color: blue;}
+
+
+.wrapper:hover .w3-button{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(0px);
 }
 
 .bottone{
@@ -79,6 +91,8 @@ header{
     font-size: 20px;
     padding: 16px 32px;
 }
+
+button.w3-button1:hover, button.w3-button1:active {color: blue;}
 
 .flex {
     display: flex;
