@@ -2,6 +2,8 @@
 *****CSS*********
 ****************/
 
+/*CSS generico*/
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +28,7 @@
 .center{ text-align: center;}
 .right{ text-align: right;}
 
+/*Elementi della pagina[header]*/
 /*header*/
 header{
     background-image:url("../img/jumbo.png");
@@ -41,7 +44,7 @@ header{
     color:white;
     text-decoration: none;
 }
-
+/*CSS Vari Bottoni*/
 .w3-button{
     border-radius: 40px;
     font-size: 15px;
@@ -95,6 +98,7 @@ header{
     align-items: center;
 }
 
+/*CSS Testo*/
 .hero{
     height: 500px;
     padding: 50px;
