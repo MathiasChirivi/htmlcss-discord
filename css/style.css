@@ -182,12 +182,30 @@ button.w3-button1:hover, button.w3-button1:active {color: blue;}
     line-height: 1.3;
 }
 
+.wave{
+    background-image: url("../img/wave.svg");
+    height: 100px;
+    opacity: 0.17;
+}
+
+.wave1{
+    transform:rotate(180deg);
+    background-image: url("../img/wave.svg");
+    height: 100px;
+    opacity: 0.17;
+}
+
 .sezione2{
+    background-color: lightgray;
     min-height: 500px ;
     display: flex;
     align-items: center;
     margin: 0 auto;
     padding: 3rem;
+}
+
+.reverse{
+    background-color: lightgray;
 }
 
 .sezione3{
@@ -252,6 +270,8 @@ button.w3-button1:hover, button.w3-button1:active {color: blue;}
     background-color: #23272a;
     align-items: center;
 }
+
+a.col1:hover, a.link:active {text-decoration: underline;}
 
 .bloccoFooter{
     width: 1000px;
